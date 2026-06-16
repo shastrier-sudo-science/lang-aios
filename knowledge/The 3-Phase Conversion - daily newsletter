@@ -1,0 +1,41 @@
+**Cut the Content Swarm's weekly clock, not your output.** The piece of your system actually built for "weekly" is Stage 6 of your Production OS (the Thursday-test/Saturday-CTA cycle, which assumes one flagship issue per week). Your 90-Day Calendar and the 3-2-1 Blueprint's 7-day rotation are *already* daily-built. So converting to Mon-Fri is a smaller lift than it looks: you're dropping two issue-days (Sat/Sun), not building a new system.
+
+**The mechanism:** your Production OS estimates ~55 min/issue because it assumes you run all 6 stages fresh, every time. But Stage 1 (Voice DNA) is a one-time extraction already saved to your Project, and Stage 2 (High-Concept naming) is fastest when batched, not done in isolation each morning. Once you separate "naming" from "writing," your daily 9-2 window only needs to run Stages 3-5, cutting per-issue time roughly in half.
+
+## The 3-Phase Conversion
+
+**Phase 1 — Weekend Batch Engine** (one 45-60 min session, Sat or Sun)
+- Goal: name and outline all 5 of next week's issues before Monday touches a single draft.
+- Actions: Run Stage 2 (High-Concept Naming) five times back-to-back in one chat — context-switching cost drops when you're already in "naming mode." Each pass also generates the `social_hook` (your teaser post). Save all 5 outline+name+hook sets to your Project's knowledge base.
+- Success metric: 5 concept names + 5 outlines + 5 teaser posts exist before Monday 9am.
+
+**Phase 2 — Mon-Fri Execution** (target ~45 min inside your 3-hour window)
+- Goal: each weekday, only run Stage 3 (Moment) → Stage 4 (Mechanism + Tiered Prompt) → Stage 5 (Audit) for that day's pre-named issue.
+- Actions: paste the pre-built outline + concept name from Phase 1, write the Moment, build the tiered prompt, run the audit, publish. No naming decisions left to make under daily time pressure — that's already done.
+- Success metric: issue published with a READY TO PUBLISH verdict inside 45-55 min, leaving 2+ hours for PropBot/SOVEREIGN/client work.
+
+**Phase 3 — Redesigned Content Swarm** (the actual weekly-to-daily fix)
+
+| Old (built for 1 issue/week) | New (Mon-Fri, 5 issues/week) |
+|---|---|
+| Thursday test post, 48 hrs before Saturday's issue | All 5 teasers batch-written in Phase 1; one scheduled the evening before each weekday issue (~14-16 hr lead, not 48) |
+| Saturday CTA, same day as the single issue | Each weekday issue gets its own same-day CTA, posted right after publish — link in first comment, same rule as before |
+| Reddit value drop, ongoing | Unchanged — stays opportunistic, not tied to a publish day |
+
+Your old Sunday slot ("The Week Ahead") effectively becomes Phase 1. Your old Saturday slot ("Build-With-Me") just gets cut, or held as overflow buffer if a weekday issue runs long.
+
+**Message-budget check:** 5 daily passes of Stages 3-5 (≈2-3 messages each) is roughly 6-9 messages/day, well inside your 15-40/5hr free-tier window. The weekend batch session runs longer but happens once, off your weekday quota.
+
+**#1 risk:** voice drift under daily pressure. Mitigated because the heaviest judgment calls (naming, voice) are front-loaded to Phase 1 — daily execution is mechanical, not creative-from-scratch.
+
+REMEMBER THIS:
+Q: Why was daily harder than weekly under the old system?
+A: Stage 6 (Swarm) assumed one flagship issue/week, not five.
+
+Q: What makes 5 issues/week faster than 7 was?
+A: Naming and outlining moved to one batch session, not done fresh daily.
+
+Q: What's the new home for "Build-With-Me" and "Week Ahead"?
+A: Cut Saturday; Sunday becomes your Phase 1 batch session.
+
+NEXT ACTION: This weekend, run Stage 2 (High-Concept Naming) five times in one Project chat to name and outline Issues 011-015. Save the output now — Monday's window opens with zero naming decisions left to make.
