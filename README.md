@@ -39,6 +39,7 @@
 | Project | Status | Kill Date | Next Action |
 |---------|--------|-----------|-------------|
 | SOVEREIGN v2.1 | In Progress | 2026-07-15 | Finish Supabase system_state integration |
+| Proposal-Forge status = LIVE
 | PropBot | Portfolio Build | 2026-06-30 | Complete live demo for real estate pitch |
 | PREDICT | Shipped | — | Maintenance only |
 | AllFours | Shipped | — | Maintenance only |
