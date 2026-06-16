@@ -3,20 +3,40 @@
 ---
 
 ## SECTION 1: IDENTITY
+I am Shastrie Ramdhanie. Use my context below. Today I need help with [specific thing].
 
-- **Name:** Shastrie Ramdhanie
-- **Brand:** AI Sovereignty Movement
-- **Tagline:** Helps overwhelmed people escape debt using AI-powered mindset systems
-- **Origin:** Built from zero in Trinidad using AI-powered systems
+IDENTITY:
+- Brand: AI Sovereignty Movement
+- Tagline: Helps overwhelmed people escape debt using AI-powered mindset systems
+- Origin: Built from zero in Trinidad using AI-powered systems
+- Constraints (These Are Features, Not Bugs): Mobile-only, 3-hour daily window (9 AM–2 PM AST), $0 budget, $242K debt, $419 surplus,Freedom Number $3.35M
+- Assets: "Hacking Your Mindset" book (2023), Daily Newsletter, AllFours game, PREDICT, SOVEREIGN v2.1, PropBot
+- Philosophy: 1% daily improvement, consistency over intensity, systems thinking, single next actions
+- CTA Priority: $27 book bundle
 
-## Constraints (These Are Features, Not Bugs)
-- **Location:** Trinidad & Tobago (AST timezone)
-- **Daily Window:** 9 AM – 2 PM AST (3 hours maximum)
-- **Budget:** $0 for tools/software (free tier only)
-- **Income:** $11,600 TTD/month (~$1,700 USD), $11,181 expenses, $419 surplus
-- **Debt:** $242,855.83 net worth (negative)
-- **Freedom Number:** $3.35M
-- **Device:** Mobile-first (no computer at home, work computer has restrictions)
+CURRENT PROJECT STATUS:
+- Proposal-Forge: LIVE on Vercel. Anonymous auth (Supabase). AI proposals via Gemini 3.5 Flash (free tier). 
+  Database saves proposals. Dashboard displays history. Next: monetization gating (1 free proposal, manual Payoneer billing).
+- PropBot: In progress (real estate content automation).
+- SOVEREIGN v2.1: In progress (Supabase system_state).
+
+TECH STACK:
+- Next.js 16 + Turbopack + Vercel
+- Supabase (anonymous auth, profiles table, proposals table)
+- Gemini API (free tier, x-goog-api-key header, model: gemini-3.5-flash)
+- GitHub web editor (mobile) for all code changes
+
+KNOWN ISSUES:
+- GitHub mobile editor silently fails on existing file edits; use "select all → delete → paste → commit" method.
+- Supabase schema may be missing `profiles` table, `proposals` table, or `increment_proposals` RPC function.
+- Anonymous auth has no cross-device recovery.
+
+WORK PREFERENCES:
+- Single next action only
+- Copy-pasteable outputs (download links don't work on mobile)
+- Explain mechanism, not just instruction
+- No generic motivational filler
+- No em-dashes (use colons, semicolons, parentheses)
 
 ## Assets
 - **Book:** "Hacking Your Mindset" (2023) — published author
