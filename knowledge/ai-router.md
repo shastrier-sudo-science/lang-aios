@@ -44,6 +44,18 @@ Expected output: [exact format needed — code block / table / step list]
 
 If two AI outputs disagree (naming mismatch, conflicting schema, contradictory advice): paste both to Claude with the flag `//AUDIT CONFLICT`. Claude reconciles and ships the final version. Claude's call is final on anything touching security or architecture, no exceptions.
 
+## Worked Example — ForecastOS 2026-06-20 Session
+
+Gemini/Kimi produced the build analysis and refactoring handoff doc.
+Claude implemented all prescribed fixes (PWA, email gate, Freedom Calculator)
+then found and fixed two additional bugs (forecast horizon, CoinGecko reliability)
+that the handoff doc didn't catch — surfaced only through direct live testing.
+
+Lesson: handoff docs from research-oriented AIs (Gemini, Kimi) are necessary
+but not sufficient. Always live-test after applying prescribed fixes before
+moving to the next planned feature. The bugs that actually break usability
+are often invisible until a human clicks through the real flow.
+
 ## Update Log
 
 - 2026-06-20: Initial version, created to formalize the existing DeepSeek-blueprint / ChatGPT-build / Claude-audit pattern already proven on PropBot.
