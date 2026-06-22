@@ -129,3 +129,82 @@ Reported error: `Market fetch error: Error: Failed to fetch`.
 - The handoff doc's prescribed fixes (Phase 1) were necessary but not sufficient — direct user testing (Phases 4–5) surfaced the two bugs that actually mattered for product usability. Lesson: ship the prescribed fixes fast, then test live immediately rather than moving straight to the next planned feature.
 - `fetchWithRetry()` and `computeHorizonMeta()` are now reusable patterns — if PropBot or another project needs resilient external API calls or date-aware forecasting later, copy these two functions rather than rebuilding from scratch.
 - Kimi's strategic repositioning (crypto signal interpreter vs. universal forecasting tool) remains correct and outstanding. Set a kill date on Next Actions #4–6 if it stalls again — infrastructure fixes cannot become a permanent excuse to avoid the positioning work.
+# Session Log — 2026-06-20
+
+## Context Pasted?
+- [x] Yes, full AIOS context loaded across both sessions today
+
+## SESSION 1 (Morning): ForecastOS Phase 1-5 Fixes
+
+### What We Built/Discussed
+Continued the ForecastOS build, migrated after hitting free-tier limits on the original session. Worked through the Gemini/Kimi handoff doc's prescribed fixes, then identified and fixed two additional bugs surfaced through direct user testing.
+
+Applied handoff doc fixes: PWA manifest, touch optimization, soft email gate with skip button, monetization bridge cards, Freedom Calculator widget, origin story card, Formspree wiring (xvznbvaq).
+
+Confirmed the Freedom Calculator carries no regulatory exposure (pure arithmetic on user inputs, no asset-specific recommendations).
+
+Cross-referenced Kimi's crypto signal interpreter analysis against the codebase. Confirmed built: Fear & Greed, BTC dominance, 24h volume, CSV engine. Confirmed not built: the 8-metric signal layer, plain-English live verdict, positioning rewrite.
+
+Fixed forecast horizon bug (config.steps discarded before rendering) via `computeHorizonMeta()`. Fixed CoinGecko reliability via `fetchWithRetry()` (timeout, 429 backoff, sequenced calls).
+
+### Key Decisions
+- Prioritized fixing broken core features over building the new signal layer
+- Deferred the 45-minute Quick Signal model comparison
+- Left CONFIG.BOOK_URL and CONFIG.PRO_PAYMENT_URL unset, blocked on LemonSqueezy verification
+
+### Outputs Generated (claimed)
+- `forecastos_v2_patched.html`, all fixes applied (later found incomplete; see Session 2)
+
+---
+
+## SESSION 2 (Afternoon): AI Router + ForecastOS Signal Layer
+
+### What We Built/Discussed
+
+**AI multi-platform workflow.** Built `knowledge/ai-router.md`: routing decision tree, per-task-type assignment table, handoff capsule template, conflict resolution rule. Security-sensitive code (auth, payments, RLS, API keys) never delegated, Claude only, no exceptions. Rewrote `README.md` to add a Multi-AI Workflow section and a ForecastOS row to Active Projects. Added a two-line pointer in `context.md` (VAULT COMMANDS: `//ROUTE`; TASK ROUTER: points to ai-router.md).
+
+**Delegation plan for ForecastOS Next Actions.** Quick Signal model comparison assigned to Claude (computational, needs the actual code running against live data). 8-metric signal layer split: DeepSeek drafts calculation logic, Claude integrates and audits since it touches a live external API call. Positioning rewrite assigned to ChatGPT, matching its proven role on PropBot's landing copy. Gave exact copy-paste prompts for both.
+
+**Audit of DeepSeek's draft (critical findings):**
+1. The uploaded `forecastos_v2_patched.html` did NOT contain `fetchWithRetry()` or `computeHorizonMeta()`, despite Session 1's log claiming both were built into that exact file. Confirmed again on the second upload (`index__2_.html`): both functions absent. The forecast horizon bug is not actually fixed in any file seen today.
+2. DeepSeek's proposed endpoint `/coins/bitcoin/ohlcv` does not exist (correct name is `/ohlc`). Free tier only supports `days` values of 1/7/14/30/90/180, never 365, and even at 180 days returns 4-day candles, not daily. Metric 8 (ATR%, needs 200+ days of daily high/low) was structurally impossible to build as designed on the free tier. Verified via web search against current CoinGecko docs.
+3. DeepSeek's MACD/EMA implementation reseeded the EMA on truncated slices instead of computing a continuous EMA over history, producing inaccurate values.
+
+**Fixes built:** Eliminated the OHLC endpoint dependency entirely. Redesigned all 8 metrics to source from the same `market_chart` endpoint pattern already proven in `forecastCoin()` (one call, days=365, paired close+volume). Replaced ATR% with 14-day realized volatility (close-price only, no high/low needed). Rewrote the EMA calculation as a continuous series. Built `fetchWithRetry()` fresh (12s AbortController timeout, 429-specific backoff, generic retry). Built `calculateSignal8Metrics()`, `fetchSignalData()`, `renderSignalVerdict()`, matched to the existing CSS variable palette (--green/--blood/--orange/--gold). Added an "educational use only, not financial advice" disclaimer to the new card, since a directional bullish/bearish verdict is a different legal risk category than the Freedom Calculator's pure arithmetic.
+
+**Copy audit (ChatGPT's positioning rewrite):** Confirmed accurate: Freedom Calculator, the three CSV models, soft email gate with skip button. Flagged: the "How It Works" section promises the composite verdict before it was live (sequencing dependency, fixed by this session's build). Flagged: the existing "weekly signal digest" line in the email gate copy isn't backed by real automation; Formspree only notifies Shastrie, there's no subscriber-facing digest. Pre-existing gap, not introduced by ChatGPT, still unresolved.
+
+**Integration.** User uploaded the actual current file (`index__2_.html`), confirmed identical base to the earlier upload, no signal layer present. Made the edits directly via tool access: signal-verdict-card HTML block after the Fear & Greed container; four JS functions inserted after `forecastCoin()`; staggered init hook (1000ms delay before the new fetch, on both page load and the 60s refresh interval) so the new call doesn't stack on the two existing CoinGecko calls. Validated with `node --check` on the extracted script; syntax confirmed clean. Delivered as `forecastos_v2_signal.html`.
+
+### Key Decisions
+- Formalized multi-AI division of labor as a documented, repeatable workflow rather than ad hoc choice per task
+- Eliminated the OHLC endpoint entirely rather than patching around its day-range limit; also reduces rate-limit risk by cutting new API surface to zero
+- Once the file was uploaded, made the edits directly with tool access instead of only handing off instructions; removes manual-paste error risk
+
+### Outputs Generated
+- `knowledge/ai-router.md` (new)
+- `README.md` (full replacement, ForecastOS row + Multi-AI Workflow section)
+- `context.md` (2-line addition)
+- `forecastos_v2_signal.html` (integrated, validated, delivered)
+- `logs/2026-06-20-session.md` (this file)
+- `logs/2026-06-20-forecastos-handoff.md`
+
+### Next Actions
+1. Rebuild `computeHorizonMeta()`. Confirmed missing from production, not a deferred nice-to-have. This is the core "what date does this number apply to" bug from the original product flaw, still live.
+2. Set CONFIG.BOOK_URL and CONFIG.PRO_PAYMENT_URL once LemonSqueezy clears.
+3. Deploy `forecastos_v2_signal.html` to GitHub Pages, replacing whatever is currently live (unconfirmed what that actually is).
+4. Live-test the Signal Verdict card specifically: confirm it loads within 1-2s after Fear & Greed, confirm fallback messaging under simulated rate-limit or timeout.
+5. Decide ForecastOS kill date and kill metric. Still unset, blocks PROJECT sub-prompt compliance.
+6. Run the deferred Quick Signal model comparison (Claude-owned, now possible with file access).
+7. Ship ChatGPT's positioning copy only after the Signal Verdict card is confirmed live (sequencing dependency).
+8. Soften or build out the "weekly signal digest" claim in the email gate copy.
+9. Apply the README.md and ai-router.md edits to the actual GitHub repo; drafted today, not yet confirmed pushed.
+
+### Blockers
+- LemonSqueezy account verification still in review
+- ForecastOS kill date and kill metric still undecided
+
+### Notes for Future Me
+The gap between "the log says X was built" and "the actual file on disk has X" happened twice today with the same two functions. Treat a prior session's "Outputs Generated" list as a claim to verify, not ground truth. Always grep the actual uploaded file before building on top of it.
+
+The multi-AI workflow proved itself exactly as designed today: DeepSeek's draft had two real bugs (wrong endpoint name, EMA reseeding) that only surfaced because the integration step included independent verification against current docs, not blind paste-through. This is the strongest evidence yet for keeping ai-router.md's rule that Claude audits before anything touches a live API call, even when the call isn't technically auth or payments.
