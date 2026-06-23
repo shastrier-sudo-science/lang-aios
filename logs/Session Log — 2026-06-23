@@ -1,0 +1,79 @@
+# Session Log — 2026-06-23
+
+## Context Pasted?
+- [x] Yes — SOVEREIGN CORE v2.1 + project files loaded
+
+## What We Built/Discussed
+
+### 1. Daily Briefing (Low Energy Day)
+- Generated briefing from README active projects table
+- Identified 3 outstanding items: ProposalForge stub, ForecastOS digest copy, lang-aios rename propagation
+- Low energy protocol invoked: single action only
+
+### 2. Drive Audit — Project Status Update
+- Confirmed All Fours iteration active as recently as June 22 (23:59): `sllfours3dv3` was latest before today
+- Confirmed `forecastos_v1_handoff.md` exists (June 19, Kimi-generated)
+- Confirmed `Proposal Forge Loop Fix.docx` (June 16) documents auth fix
+- Flagged unlogged Google Form created June 18 — purpose unknown
+
+### 3. All Fours v4 → v5 (Kimi fixes applied)
+Applied 4 fixes from `allfours3dv4-kimifixesforv5`:
+- Fix 1: `applyRemoteState` — replaced `Object.assign` with incremental field update; `ledSuit` now uses `hasOwnProperty` so null resets correctly between tricks
+- Fix 2: `detectRenege()` function added after `canPlayCard`
+- Fix 3: Safety checks added in `aiPlayCard` — illegal card forced to first legal; renege triggers fallback
+- Fix 4: `detectRenege` added to `_hostProcessPlayCard` — host rejects reneging guest moves
+- Syntax validated clean with `node --check`
+
+### 4. All Fours v5 — Hand Clear Bug Fix
+- **Bug reported:** West ran out of cards in round 5 of a 6-card game; South/North had 1 card each, East had 2
+- **Root cause:** `beginDeal()` called `dealRoundRobin(6)` which pushes cards onto hands without clearing them first. Previous round's leftover cards accumulated silently across rounds.
+- **Fix:** Added `for (const pos of PLAY_ORDER) { gameState.hands[pos] = []; }` at top of `beginDeal()` before `createDeck()`
+- **File output:** `allfours3dv5.html` (3472 lines, syntax validated clean)
+
+### 5. ProposalForge — Anthropic API Migration
+- Confirmed Supabase schema (`profiles`/`proposals` tables) live — verified by Shastrie last week
+- Kimi refactored `app/api/generate/route.ts`: replaced Gemini API with Anthropic Claude 3.5 Sonnet
+- Confirmed `@anthropic-ai/sdk: ^0.84.0` already in `package.json` dependencies
+- Confirmed `ANTHROPIC_API_KEY` added to Vercel environment variables this morning
+- **Build error:** TypeScript type predicate `block is { type: 'text'; text: string }` failed in SDK 0.84.0 — `TextBlock` now requires `citations` field, inline shape did not satisfy `ContentBlock`
+- **Fix applied:** Removed type predicate; replaced with `block.type === 'text'` filter + `(block as Anthropic.TextBlock).text` cast
+- **File output:** `route.ts` (copy into `app/api/generate/route.ts`)
+
+### 6. Repo Rename
+- GitHub AIOS repo renamed from `aios-business-builder` to `lang-aios`
+- Short name going forward: **lang**
+- All references in `knowledge/context.md`, `README.md`, and session logs need updating
+
+## Key Decisions
+- lang is the official short name for the AIOS repo
+- ProposalForge now uses Claude exclusively — Gemini dependency fully removed
+- All Fours v5 is the current working file; v4 is superseded
+- `detectRenege()` is now the host-level guard for multiplayer card integrity
+
+## Outputs Generated
+- `allfours3dv5.html` — upload to All Fours GitHub repo, select-all replace
+- `app/api/generate/route.ts` — paste into Proposal-Forge repo, commit to main
+
+## Active Project Status
+
+| Project | Status | Last Activity | Blocker | Kill Date |
+|---|---|---|---|---|
+| ProposalForge | Deployed, pending build fix | 2026-06-23 | Paste fixed route.ts, redeploy | None set |
+| ForecastOS | Live on GitHub Pages | 2026-06-19 | Remove weekly digest copy; set kill metric | Not set |
+| All Fours | v5 ready to deploy | 2026-06-23 | Paste allfours3dv5.html to repo | Not set |
+| lang (AIOS) | Renamed | 2026-06-23 | Update all repo references from aios-business-builder to lang-aios | 2026-07-15 |
+
+## Blockers Remaining
+- [ ] ProposalForge: paste fixed `route.ts` into GitHub, trigger redeploy, test one proposal
+- [ ] All Fours: paste `allfours3dv5.html` into GitHub, test two consecutive full rounds
+- [ ] ForecastOS: remove "weekly signal digest" claim from email gate copy
+- [ ] ForecastOS: set kill date and kill metric in Supabase `active_projects`
+- [ ] lang: update all `aios-business-builder` references to `lang-aios` in `context.md` and `README.md`
+- [ ] Clarify purpose of Google Form created June 18
+
+## Notes for Future Me
+- All Fours hand-clear bug would have surfaced in every multi-round game — fix was critical before any playtesting
+- ProposalForge TypeScript error was SDK version mismatch, not a logic error — always check SDK changelog when upgrading
+- lang-aios rename must propagate to every file that references the repo path or future sessions will break continuity
+- Supabase `active_projects` table has no kill metric for ForecastOS or All Fours — kill-check protocol is blind on both
+- Low energy sessions can still ship: 2 bug fixes + 1 migration today
