@@ -181,6 +181,13 @@ NEXT ACTION: Find one creator in your target niche. Pull transcripts from their 
   - Write 2 full sample scripts (one free-pitch style).
   - Outreach: DM 5 creators offering free sample (track responses).
 - **Builds On:** Module 1 research.
+## Key Concepts
+- Voice capture: Analyzing existing content to replicate a creator's unique tone, sentence structure, and emotional rhythm.
+- Hook frameworks: Pattern interrupt, curiosity gap, stakes-raise — used in first 90 seconds to stop the scroll.
+- Story structure: Hook → Setup → Conflict → Twist → Payoff → CTA.
+- Free-pitch style: Writing a full sample script before payment to demonstrate value.
+- Outreach: Cold DM framework — specific reference, identified improvement, free offer, no ask.
+- Career ladder: Script writer → Content strategist → Creative director.
 
 #### Module 3: High-Leverage Copywriting (Sales Pages)
 - **Content:** Psychographics, conversion elements, research methods (data/scrapes).
