@@ -423,3 +423,137 @@ proxy.ts                         # Next.js 16 proxy (session refresh)
 ---
 
 Copy both blocks into separate `.md` files and upload to Lang. You're set.
+# Proposal Forge — Session Log
+
+**Date:** 2026-06-26
+**Session:** Auth Fix, Learning Loop, Founder Tools, Launch Prep
+
+---
+
+## Changes Made
+
+### 1. Fixed Auth Flow (Mobile/Desktop Sync)
+**Files:** `app/login/page.tsx`, `proxy.ts`
+- Added `await supabase.auth.signOut()` before Google OAuth to prevent duplicate user accounts
+- Mobile was creating separate user IDs from desktop, causing proposals to disappear
+- Fixed by clearing existing session before initiating OAuth flow
+
+### 2. Closed Learning Loop
+**Files:** `app/api/learn/route.ts`, `app/dashboard/DashboardLearningLoop.tsx`
+- Learning loop successfully extracts rules from logged outcomes
+- First extracted rule: "Frame the client's problem as a revenue leak with a specific, quantifiable cost before offering the solution."
+- Rule automatically applied to subsequent proposals (verified with Test Proposal #4)
+- Added RLS policy for authenticated inserts on `forge_rules`
+
+### 3. Added Founder-Only Tools
+**Files:** `app/dashboard/DashboardLearningLoop.tsx`, `app/dashboard/ActivateProButton.tsx`, `app/api/activate/route.ts`
+- Learning Loop button: Only visible to `shastrier@gmail.com`
+- Activate Pro button: Allows founder to manually upgrade users from `free` to `pro`
+- Both components are email-gated and return 403 for non-founders
+
+### 4. Founder Unlimited Access
+**File:** `app/api/generate/route.ts`
+- Added `FOUNDER_EMAIL` constant
+- Founder bypasses `FREE_LIMIT = 3` check
+- Founder's `proposals_this_month` counter never increments
+
+### 5. Updated Landing Page CTA
+**File:** `app/page.tsx`
+- "Generate your first proposal free" button now redirects to `/login` instead of `/generate`
+- Anonymous users must authenticate before accessing the tool
+
+### 6. Login Page Cleanup
+**File:** `app/login/page.tsx`
+- Removed GitHub OAuth option (only Google + Magic Link remain)
+- Added `signOut()` before OAuth to prevent session conflicts
+
+---
+
+## Database Changes
+
+### SQL Executed
+```sql
+-- Allow authenticated inserts on forge_rules (for learning loop)
+CREATE POLICY "Allow authenticated inserts on forge_rules"
+ON forge_rules
+FOR INSERT
+TO authenticated
+WITH CHECK (true);
+
+-- Merge duplicate user proposals (mobile vs desktop)
+UPDATE proposals 
+SET user_id = 'f8ca2d11-c3bf-4142-8a1d-dc52565836e8'
+WHERE user_id = '602aa2e2-910f-4b96-8071-881bce03299a';
+
+DELETE FROM auth.users 
+WHERE id = '602aa2e2-910f-4b96-8071-881bce03299a';
+```
+
+### New Row in `forge_rules`
+| id | rule | source | win_rate_at_creation | active | created_at |
+|----|------|--------|----------------------|--------|------------|
+| tea1bf0d... | Frame the client's problem as a revenue leak with a specific, quantifiable cost before offering the solution. | learned | 33.3 | TRUE | 2026-06-26 17:05:16 |
+
+---
+
+## Files Modified/Created
+
+| File | Status | Notes |
+|------|--------|-------|
+| `app/login/page.tsx` | MODIFIED | Removed GitHub, added signOut before OAuth |
+| `app/page.tsx` | MODIFIED | CTA redirects to /login |
+| `app/api/generate/route.ts` | MODIFIED | Founder bypasses free limit |
+| `app/api/learn/route.ts` | MODIFIED | Returns {success, rule} shape |
+| `app/dashboard/page.tsx` | MODIFIED | Added DashboardLearningLoop + ActivateProButton |
+| `app/dashboard/DashboardLearningLoop.tsx` | CREATED | Founder-only learning loop button |
+| `app/dashboard/ActivateProButton.tsx` | CREATED | Founder-only Pro activation form |
+| `app/api/activate/route.ts` | CREATED | Founder-only API to upgrade users |
+| `proxy.ts` | UNCHANGED | Already correct |
+
+---
+
+## Verification Checklist
+
+- [x] Landing page renders correctly
+- [x] Login page shows Magic Link + Google only
+- [x] Auth flow works on desktop (Google OAuth)
+- [x] Auth flow works on mobile (Google OAuth)
+- [x] Generate proposal saves to database
+- [x] Log outcome updates proposal status
+- [x] Learning loop button visible to founder only
+- [x] Learning loop extracts and saves new rule
+- [x] New rule automatically used in next proposal
+- [x] Founder has unlimited proposals (bypasses limit)
+- [x] Free users still hit 3-proposal limit
+- [x] Activate Pro button visible to founder only
+- [x] Activate Pro API upgrades user plan in database
+
+---
+
+## Known Issues & Resolutions
+
+| Issue | Root Cause | Fix Applied |
+|-------|-----------|-------------|
+| Mobile proposals not showing | Duplicate user accounts (different user_id) | signOut() before OAuth + SQL merge |
+| Learning loop 500 error | RLS policy blocked inserts on forge_rules | Added authenticated insert policy |
+| Learning loop button not showing | Anonymous session (no email) | Cleared cookies, re-authenticated |
+| Google OAuth redirect_uri_mismatch | Google Console config | Added exact Supabase callback URL |
+| Email rate limit exceeded | Supabase free tier | Switched to Google OAuth |
+
+---
+
+## Next Actions
+
+1. **Deploy all files** — Push to GitHub, Vercel auto-deploys
+2. **Set custom domain** — `proposalforge.vercel.app` or custom domain
+3. **Send newsletter** — Use distribution copy from handoff
+4. **Post in 1 freelance group** — Facebook or WhatsApp
+5. **Monitor sign-ups** — Check Supabase auth users daily
+6. **Run learning loop** — When 3+ new outcomes are logged by real users
+7. **Automate PayPal webhooks** — When 10+ paying users (currently manual activation)
+
+---
+
+## Launch Status: READY
+
+Core engine operational. Auth flow stable. Learning loop proven. Founder tools in place. Ready for distribution.
