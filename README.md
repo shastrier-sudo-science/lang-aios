@@ -1,4 +1,4 @@
-# SOVEREIGN AIOS — Shastrie Ramdhanie
+# lang AIOS — Shastrie Ramdhanie
 
 **Purpose:** Persistent memory, skills, and context for building a 1-person AI business from Trinidad, executed across 6 AI platforms.
 **Constraint:** 3-hour daily window, zero budget, AI does 80-90% of work.
