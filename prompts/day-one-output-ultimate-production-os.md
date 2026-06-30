@@ -1,141 +1,163 @@
-Description: A 6-stage operational system for producing high-leverage, beginner-friendly AI newsletter issues. It relies on proprietary concepts, tiered prompt architectures, and authentic personal constraints, all driven by the SLPC storyselling framework.
+Skill: Day One Output — Ultimate Production OS (Mon–Fri Daily Edition)
+
+Description: A 6-stage operational system for producing high-leverage, beginner-friendly AI newsletter issues for "Day One Output." Driven by SLPC storyselling, a locked Voice DNA, proprietary failure-pattern naming, and a 3-phase weekly batch → daily execution cadence.
+
+VERSION NOTE: This file replaces all prior drafts (long-clause book-voice version, weekly Thu/Sat swarm version). Voice DNA below is FINAL — confirmed punchy/short-sentence register, chosen over the long-clause book-derived alternative because it reads better for beginners. Upload this same file to the Claude Project AND the GitHub repo so every platform pulls from one source.
+
+---
+
 I. Non-Negotiable Rules
 
-THE CONSTRAINT IS THE BRAND: Every issue must include one real metric from your life ($419 surplus, debt numbers, fixed 9:00 AM–2:00 PM window). Never write backstory in the third person. Your location (Las Lomas) and hardware constraints (switching between a workplace computer and a mobile phone) are proof your system works under real-world pressure.
-BEGINNER-FRIENDLY BY DEFAULT: Assume the reader knows nothing. Apply the gentle progression rule to all mechanisms: Simple definition → Everyday analogy → Why it matters → Simple example.
-THE SLPC NARRATIVE CORE: Every issue must flow through the 4-step framework: Story (Vivid Las Lomas/constraint hook) → Lesson (Universal truth) → Pivot (Bridge to free-tier strategy) → Commandment/CTA (Soft push to your $27 Power Pack or free library).
+1. THE CONSTRAINT IS THE BRAND — Every issue includes one real metric from my life: $419 monthly surplus, $242,855 negative net worth, or my fixed 9:00 AM–2:00 PM work window. Never write backstory in third person. Trinidad and Tobago and my zero-budget constraint are proof the system works under real pressure, not something to apologize for.
 
+2. BEGINNER-FRIENDLY BY DEFAULT — Assume the reader knows nothing about AI. Every concept follows: Simple definition → Everyday analogy → Why it matters → Simple example.
 
-ONE SYSTEM, NOT THREE TIPS: Never publish three separate, disconnected prompts. Always build one tiered system: Starter → Decision-Grade → Publication-Ready. Include one Validation Check detailing when not to use the system.
+3. THE SLPC NARRATIVE CORE — Every issue flows through: Story (vivid, mid-scene constraint hook) → Lesson (universal truth) → Pivot (bridge to free-tier strategy) → Commandment/CTA (soft push to the $27 Power Pack or free library).
 
+4. ONE SYSTEM, NOT THREE TIPS — Never publish three disconnected prompts. Always build one tiered system: Starter → Decision-Grade → Publication-Ready. Each tier builds on the last. Include one Validation Check (when NOT to use this).
 
+5. NAME WHAT NOBODY ELSE HAS NAMED — Every issue introduces or reinforces one proprietary concept name describing a FAILURE PATTERN (e.g., "The Handoff Sludge," "The Context Leak"). Name the trap, not the fix.
 
-NAME WHAT NOBODY ELSE HAS NAMED: Every issue must introduce one proprietary concept name describing a FAILURE PATTERN (e.g., "The Context Leak"). Do not name the solution.
+6. THE CONTENT SWARM IS NOT OPTIONAL (Daily Version) — Teaser posts go out the evening before each issue (~14–16 hour lead). Same-day CTA posts go out right after publish, link in first comment, never in the post body.
 
+7. THE AUDIT RUNS BEFORE EVERY PUBLISH — Stage 4 is mandatory. A "NEEDS REVISION" verdict means you do not publish until fixed.
 
+---
 
-THE CONTENT SWARM IS NOT OPTIONAL: The Thursday test post must go out 48 hours before the newsletter. Never post the newsletter link directly in the social post body. The Reddit value drop gives the complete solution with no teaser.
+II. Locked Voice DNA (Final)
 
-THE AUDIT RUNS BEFORE EVERY PUBLISH: Stage 5 is mandatory. A "NEEDS REVISION" verdict means you do not publish until fixed.
+<voice_dna>
+SENTENCE ARCHITECTURE: Punchy, short-to-medium sentences. Single-sentence paragraph breaks used for emphasis. Bold key terms for scannability. Paragraphs never exceed 3 sentences.
 
+VOCABULARY FINGERPRINT: Grounded, tactile, visual words (messy, clean, boxes, containers, sludge, bleeding, trapped, clock ticking). Bans corporate AI jargon entirely.
 
-II. The 6-Stage Workflow
-Stage 1: Voice DNA & Identity Extraction ( 🧬 )
+EMOTIONAL REGISTER: Writes alongside the reader as a transparent, high-performing peer, not an expert on a pedestal. Sounds like an architect sharing battle scars from a zero-budget trench.
 
-NOTE: Run once. Save the output as a Project file. This guarantees every output sounds like a patient, encouraging friend from Las Lomas.
+CONSTRAINT VOICE: High-velocity language shaped by real boundaries. Every piece carries the weight of the 9–2 countdown and the zero-budget rule.
+</voice_dna>
 
-Execution Prompt:
-text[cite_start]You are a forensic linguistic analyst specializing in newsletter and content voice profiling[cite: 229]. 
-[cite_start]Extract my Voice DNA based on these constraints and samples[cite: 231]. 
+<negative_vocabulary>
+Banned, no exceptions: leverage, utilize, journey, game-changer, unlock, seamlessly, synergy, circle back, touch base, transformative, delve, robust, empower. No emoji.
 
-My Context: I am Shastrie R. I build AI systems from Las Lomas, Trinidad and Tobago, operating on a fixed 9 AM to 2 PM work window. I execute 80-95% of my work via AI, alternating between my workplace computer and my mobile phone. My current surplus is tightly constrained ($419).
+Note: this ban is a deliberate craft choice for Day One Output's punchier register — confirmed even though my organic/book writing voice doesn't naturally avoid "utilize" or "transform." The newsletter keeps the stricter list on purpose.
+</negative_vocabulary>
 
-[cite_start][PASTE 3 SAMPLES OF YOUR WRITING HERE] [cite: 233]
+<voice_wrapper>
+Write like an agile Trinidad and Tobago-based software architect executing high-leverage work in a strict 9–2 window. Speak like a patient, encouraging friend to absolute AI beginners. Use punchy, short sentences and paragraphs of 3 sentences max. Open mid-scene with a raw personal constraint ($419 surplus, $242,855 debt, or the 9–2 window). Run the 4-step SLPC framework every time: hook with a vivid constraint struggle, pull one universal lesson, pivot to a free-tier AI strategy, close with a low-pressure CTA. Never use: leverage, utilize, journey, game-changer, unlock, seamlessly.
+</voice_wrapper>
 
-Analyze across:
-1. [cite_start]SENTENCE ARCHITECTURE (Short/medium ratio) [cite: 235, 236]
-2. [cite_start]VOCABULARY FINGERPRINT (Over-indexed words vs. negative vocabulary) [cite: 237, 238]
-3. [cite_start]EMOTIONAL REGISTER (Patient, encouraging, grounded) [cite: 239, 240]
-4. [cite_start]CONSTRAINT VOICE (How the Trinidad context, PC/mobile hardware limits, and 9-2 window shape the stakes) [cite: 243, 244]
+---
 
-OUTPUT FORMAT:
-[cite_start]<voice_dna> [Full profile] </voice_dna> [cite: 246, 247, 248]
-[cite_start]<negative_vocabulary> [Words I NEVER use (e.g., game-changer, unlock, seamlessly)] </negative_vocabulary> [cite: 249, 250, 251]
-<voice_wrapper> [A single 120-word system prompt I can paste into any chat to activate my SLPC/Beginner-friendly voice. [cite_start]Imperative commands only.] </voice_wrapper> [cite: 252, 253, 254, 255]
-Stage 2: High-Concept Naming ( ⚡ )
+III. The 3-Phase Daily Cadence
 
-NOTE: Run this BEFORE writing. Name the failure, not the fix.
+PHASE 1 — Weekend Batch Engine (one 45–60 min session)
+Run Stage 1 (High-Concept Naming) five times back-to-back for the coming week's issues. Each pass also produces the evening-before teaser. Save all five name + outline + teaser sets to the Project knowledge base before Monday.
 
-Execution Prompt:
-text[cite_start][PASTE YOUR VOICE WRAPPER FROM STAGE 1 HERE] [cite: 262]
-[cite_start]Raw topic: [DESCRIBE YOUR RAW TOPIC IN 1-2 SENTENCES] [cite: 263, 264]
+PHASE 2 — Weekday Execution (~45 min inside the 9–2 window)
+Each weekday, run only Stages 2–4 for that day's pre-named issue: write the SLPC core, build the tiered prompt system, run the audit, publish.
 
-[cite_start]Name the FAILURE PATTERN this topic solves[cite: 265]. 
-Requirements: 2-4 words maximum. Accessible to an absolute beginner. [cite_start]Someone hearing it for the first time should immediately recognize their own experience[cite: 267, 269].
+PHASE 3 — Daily Content Swarm
+Evening-before teaser (from Phase 1) posts ~14–16 hours ahead. Same-day CTA posts right after publish, link in first comment. Reddit value drop stays ongoing, not tied to a publish day.
 
-Provide:
-[cite_start]<concept_name> [Proprietary name] </concept_name> [cite: 272, 273, 274]
-[cite_start]<why_it_lands> [One sentence rationale] </why_it_lands> [cite: 275, 276, 277]
-<subject_line_options> [3 variants. Under 55 chars. [cite_start]Curiosity/Stakes/Resolution] </subject_line_options> [cite: 278, 279, 280]
-<social_hook> [280-char Thursday test post. [cite_start]Must reference a specific cost/constraint.] </social_hook> [cite: 281, 282, 284]
-Stage 3: The Moment / Backstory ( 🔥 - SLPC Steps 1 & 2 )
+---
 
-NOTE: This is your single biggest differentiator. Embed the constraint.
+IV. The Workflow
 
-Execution Prompt:
-text[cite_start][PASTE YOUR VOICE WRAPPER FROM STAGE 1 HERE] [cite: 290]
-[cite_start]Failure pattern: [CONCEPT NAME FROM STAGE 2] [cite: 292]
+STAGE 1 — Weekend High-Concept Batching (run 5x on weekends)
 
-Write the opening "Story" and "Lesson" for this issue:
-1. [cite_start]STORY: Open mid-scene in my 9:00 AM - 2:00 PM work window[cite: 295, 301]. Reference my hardware (workplace PC/mobile phone) or location (Las Lomas).
-2. [cite_start]STAKES: Name the exact failure I experienced and include financial stakes using a real number ($419 surplus, debt)[cite: 296, 297].
-3. [cite_start]LESSON: Extract a clear, universal truth or contrarian insight from the failure[cite: 298].
+```
+[PASTE VOICE_WRAPPER HERE]
 
-CONSTRAINTS: 3 paragraphs max. First person only. [cite_start]No jargon[cite: 300, 302]. 
+Raw topic: [DESCRIBE ONE TOPIC IN 1-2 SENTENCES]
 
-[cite_start]<moment> [Story + Lesson] </moment> [cite: 305, 306, 307]
-[cite_start]<stakes_line> [3 single-sentence options encoding the constraint] </stakes_line> [cite: 308, 309, 310]
-Stage 4: Mechanism, Pivot & Prompt System ( ⚙️ - SLPC Steps 3 & 4 )
+Name the proprietary FAILURE PATTERN this topic solves. Name the trap, not the fix.
+2-4 words max. Someone hearing it once should recognize their own experience.
 
-NOTE: Reframes you from "tips aggregator" to "system architect".
+<concept_name>[name]</concept_name>
+<why_it_lands>[one sentence]</why_it_lands>
+<subject_line_options>[3 variants, under 55 chars: curiosity / stakes / resolution]</subject_line_options>
+<evening_before_teaser>[280-char post, scheduled night before. Anchors on a specific real cost or mistake. No link.]</evening_before_teaser>
+```
 
-Execution Prompt:
-text[cite_start][PASTE YOUR VOICE WRAPPER FROM STAGE 1 HERE] [cite: 316]
-[cite_start]Failure pattern: [CONCEPT NAME] [cite: 318]
+STAGE 2 — Weekday SLPC Core (run Mon–Fri)
 
-Step 1: Mechanism & Pivot
-[cite_start]Explain WHY the technique works using the Beginner-Friendly rule (Simple Def -> Everyday Analogy -> Why it matters)[cite: 322, 323]. Pivot naturally to how this fits into a free-tier AI stack. Maximum 150 words.
+```
+[PASTE VOICE_WRAPPER HERE]
 
-[cite_start]<mechanism_explanation> [Beginner-friendly explanation + Pivot] </mechanism_explanation> [cite: 325, 326, 327]
+Failure pattern: [CONCEPT NAME FROM STAGE 1]
+Mechanism to teach: [ONE SENTENCE]
 
-Step 2: Tiered Prompt System
-[cite_start]Build ONE prompt architecture[cite: 329]. 
+1. STORY: Open mid-scene inside my 9-2 window. Weave in the stakes with a real number ($419 surplus or $242,855 debt).
+2. LESSON: One universal, beginner-friendly truth pulled from the story.
+3. PIVOT + MECHANISM: Simple definition → everyday analogy → why it matters → simple example.
+
+Sentences short and punchy. Paragraphs max 3 sentences. No banned vocabulary.
+```
+
+STAGE 3 — Tiered Prompt System + CTA (run Mon–Fri)
+
+```
+[PASTE VOICE_WRAPPER HERE]
+
+Failure pattern: [CONCEPT NAME]
+Mechanism: [BRIEF DESCRIPTION]
+
 <prompt_system>
-[cite_start]STARTER LEVEL (5-minute tasks): [Core prompt] [cite: 331, 332]
-[cite_start]DECISION-GRADE: [Starter + additions] [cite: 333, 334]
-[cite_start]PUBLICATION-READY: [Decision-grade + additions] [cite: 335, 336]
-[cite_start]</prompt_system> [cite: 337]
+STARTER LEVEL (5-minute task): [core prompt]
+DECISION-GRADE (Starter + stakes-aware additions): [...]
+PUBLICATION-READY (Decision-Grade + final-polish additions): [...]
+</prompt_system>
 
-[cite_start]<validation_check> [When NOT to use this system] </validation_check> [cite: 338, 339, 340]
-<beginner_action> [Add a tiny "Try This" step for absolute beginners to test the concept immediately.] </beginner_action>
-<commandment_cta> [Soft close linking to the $27 Power Pack or free library.] </commandment_cta>
-Stage 5: Self-Audit Loop ( 🔍 )
+<validation_check>[One sentence: when this system is the wrong tool]</validation_check>
+<beginner_action>[30-second "Try This Today" step]</beginner_action>
+<commandment_cta>[Firm closing line + soft push to the $27 Power Pack or free library]</commandment_cta>
+```
 
-NOTE: Your internal quality control.
+STAGE 4 — Self-Audit Loop (run Mon–Fri, before publishing)
 
-Execution Prompt:
-text[cite_start][PASTE YOUR VOICE WRAPPER FROM STAGE 1 HERE] [cite: 346]
-Audit the draft below against these strict rules:
+```
+[PASTE VOICE_WRAPPER HERE]
 
-1. BEGINNER FAILURES: Is there unexplained jargon? Are concepts missing analogies? 
-2. SLPC FAILURES: Does it miss the Story -> Lesson -> Pivot -> CTA flow?
-3. BACKSTORY FAILURES: Missing the 9-2 window, $419 constraint, or hardware mention? [cite_start]Is it in third-person? [cite: 352]
-4. [cite_start]MECHANISM FAILURES: Are the prompts disconnected instead of tiered? [cite: 353]
-5. CONCEPT FAILURES: Missing the proprietary failure pattern name? [cite_start]Missing the Validation check? [cite: 354]
+You are the Editor Agent. Audit only — do not rewrite the full draft.
 
-<audit_results> [CATEGORY | Quoted phrase | Why it's weak | Specific replacement. [cite_start]Or "PASS"] </audit_results> [cite: 357, 358, 359]
-[cite_start]<publish_verdict> READY TO PUBLISH / NEEDS REVISION — [reason] </publish_verdict> [cite: 360, 361, 362]
-Stage 6: Content Swarm Deployment ( 📡 )
+[PASTE FULL DRAFT]
 
-NOTE: The Swarm converts strangers into subscribers.
+1. BEGINNER CHECK: unexplained jargon? missing analogies?
+2. SLPC CHECK: Story → Lesson → Pivot → Commandment all present?
+3. IDENTITY CHECK: missing the 9-2 window or real financial numbers? backstory in third person?
+4. SYSTEM CHECK: three disconnected tips instead of one tiered system?
+5. BANNED VOCAB CHECK: any negative-vocabulary word present?
 
-Execution Prompt:
-text[cite_start][PASTE YOUR VOICE WRAPPER FROM STAGE 1 HERE] [cite: 368]
-[cite_start]Generate the asset swarm for: [CONCEPT NAME] [cite: 370]
+<audit_results>[CATEGORY | quote | why it's weak | exact replacement, or "PASS"]</audit_results>
+<publish_verdict>READY TO PUBLISH / NEEDS REVISION — [one-sentence reason]</publish_verdict>
+```
 
-<thursday_post_x> [Test concept. Opens on specific mistake. Ends with targeted question. [cite_start]NO link.] </thursday_post_x> [cite: 374, 375, 376]
-<thursday_post_linkedin> [Under 150 words. [cite_start]3 paragraphs max.] </thursday_post_linkedin> [cite: 377, 378, 379]
-<saturday_cta> [Converts Thursday engagement. States what the issue teaches + Action step. [cite_start]Under 100 words.] </saturday_cta> [cite: 380, 381, 382]
-<reddit_template> [Full organic solution drop, no teaser, no link. [cite_start]Sign off: "— Shastrie, Day One Output".] </reddit_template> [cite: 383, 384, 385]
+STAGE 5 — Daily Content Swarm (run Mon–Fri, after a READY verdict)
 
-III.
-Pre-Flight Checklist
+```
+[PASTE VOICE_WRAPPER HERE]
 
- Stage 1: Voice DNA extracted and saved to Project
- Stage 2: High-Concept Failure Pattern named
- Stage 3: SLPC Hook executed mid-scene (Las Lomas/9-2 Window/PC & Mobile constraints)
- Stage 4: Mechanism explained simply with an everyday analogy
- Stage 4: Prompt is tiered & includes a Beginner "Try This" step
- Stage 4: Soft Commandment/CTA embedded naturally
- Stage 5: Self-audit run — ZERO jargon, READY TO PUBLISH verdict
- Stage 6: Swarm assets scheduled
+Concept name: [CONCEPT NAME]
+Audited draft: [PASTE]
+
+<same_day_cta_post>[Under 100 words. Punchy question on the failure pattern, what today's issue solves, link in first comment only.]</same_day_cta_post>
+<reddit_template>[80-120 words. Full solution, no teaser, no link. Sign off: "— Shastrie, Day One Output"]</reddit_template>
+```
+
+---
+
+V. Pre-Flight Checklist
+
+- [ ] Phase 1: 5 concept names + outlines + teasers batched before Monday
+- [ ] Stage 2: story opens mid-scene, 9-2 window or financial metric present, first person
+- [ ] Stage 2: sentences punchy, paragraphs ≤3 sentences, zero banned vocabulary
+- [ ] Stage 3: prompt system is tiered (Starter → Decision-Grade → Publication-Ready), not 3 separate prompts
+- [ ] Stage 3: validation check + beginner action + CTA present
+- [ ] Stage 4: audit run, verdict is READY TO PUBLISH
+- [ ] Stage 5: same-day CTA + Reddit template ready, no links in post bodies
+
+---
+
+VI. Update Log
+
+- 2026-06-30: Consolidated final version. Locked punchy voice DNA as the production standard over the long-clause book-voice alternative (tested side-by-side; punchy version chosen for beginner readability). Converted swarm cadence from weekly Thu/Sat to daily evening-before/same-day. This is now the single source of truth — same file uploaded to the Claude Project and GitHub repo.
