@@ -1212,3 +1212,11 @@ Strong follow-ups position you as a strategic partner, leading to higher-quality
 This skill compounds across modules (e.g., sales page psychographics, consulting audits). Practice consistently in your outreach for the capstone.
 
 You now have a complete discovery system. If you share sample responses from a creator, a draft script, or specific follow-up scenarios, I can help craft tailored questions or refine a full interview flow. Great work—execute those 5 outreaches!
+
+DAILY QUESTIONS — Module 2: Ghostwriting & Script Mastery
+5 questions, progressive difficulty. Answer each before reading the next.
+Q1 (Foundation): You run the Voice DNA Analysis prompt on a creator's 3 transcripts. Claude returns a blueprint. What is the single most important element in that blueprint that separates voice-consistent output from generic AI text, and why?
+Q2 (Application): You send the Step 2 Script Generation prompt and Claude writes a 1,500-word complete script in one go. According to your training, what did you do wrong and what specific consequence does that create for your client?
+Q3 (Discovery): A creator answers your discovery question "What's hardest about scripting?" with "I don't know, everything I guess." Name one follow-up question and explain the mechanism — why does that specific phrasing extract better material?
+Q4 (Differentiation): A creator says "Why would I hire you? I can just train Claude on your sample script myself." Give the one-sentence counter that addresses the actual gap in their logic without being defensive.
+Q5 (Strategic): You have 5 target creators from your research list — AI Injection (228 videos, 196 subs), JimCircuit (132 videos, 212 subs), Tokscript (22 videos, 99 subs), Sunny Israni (251 videos, 1.68K subs), Claude Unlocked (44 videos, 124 subs). Rank them 1-5 for outreach priority based on Module 2 criteria and explain your top pick in one sentence.
