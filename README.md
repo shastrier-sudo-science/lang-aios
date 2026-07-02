@@ -39,7 +39,7 @@ Security-sensitive code (auth, payments, RLS, API keys) never leaves Claude, reg
 
 **Name:** Shastrie Ramdhanie
 **Location:** Trinidad & Tobago (AST timezone)
-**Daily Window:** 9 AM – 2 PM AST (3 hours)
+**Daily Window:** 9 AM – 6pm to 9pm (3 hours)
 **Financial:** $11,600 TTD monthly income, $11,181 expenses, $419 surplus
 **Debt:** $242,855.83 net worth (negative)
 **Freedom Number:** $3.35M
