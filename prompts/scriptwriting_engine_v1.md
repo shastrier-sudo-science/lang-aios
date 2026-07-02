@@ -184,3 +184,174 @@ Provide:
 <text_value_post> [A complete, native long-form text post optimized for professional or community forums (e.g., LinkedIn or online communities) that outlines the complete step-by-step logic with zero teaser links. Sign off with an authentic signature block.] </text_value_post>
 
 ```
+# Scriptwriting Engine v1 — Voice-Cloned YouTube Script System
+
+## Purpose
+Clone any YouTube creator's exact voice from their own transcripts, then generate high-retention scripts that pass as their own writing. Built for freelance YouTube ghostwriting work — the highest-leverage, lowest-entry-friction income stream in the freelance job list. Run as a 4-step chain across fresh chats, same pattern as the Content Machine and Day One Output Voice DNA extraction.
+
+## When to Use This
+- Landing a new ghostwriting client (run the full chain once, save the Blueprint to the client's Project)
+- Producing an ongoing script for an existing client (skip to Step 3, reuse the saved Blueprint)
+- Building a free-pitch sample for outreach (run the full chain on a public creator's existing videos)
+
+## Input Required
+1. **CREATOR NAME**: [who you're cloning]
+2. **TRANSCRIPTS**: [2–3 transcripts from their best-performing videos — paste raw]
+3. **VIDEO BRIEF**: [topic, target length, core takeaway, proof element for the new script]
+4. **DELIVERY CONTEXT**: [free sample for outreach / paid client work / your own channel]
+
+---
+
+## STEP 1 — Voice DNA Analysis (Chat 1)
+
+```
+You are an elite content strategist and forensic linguistic analyst
+specializing in YouTube media production.
+
+Task: Analyze the attached transcripts from [CREATOR NAME]'s YouTube
+videos. Deconstruct their exact communication style into an
+actionable, repeatable Stylistic DNA Profile.
+
+[PASTE 2-3 TRANSCRIPTS]
+
+Analyze across:
+1. Hook Mechanics — how do they capture attention in the first 15
+   seconds? Contrarian statement, shocking stat, personal story,
+   direct question?
+2. Structural Beats — map the actual anatomy of their videos. Do not
+   assume a template applies; identify their real pattern.
+3. Pacing and Rhythm — sentence lengths, where they go short and
+   punchy vs. where they slow down and go conversational.
+4. Vocabulary and Verbal Signatures — catchphrases and over-indexed
+   words. Equally important: words and phrases they never use. This
+   negative vocabulary list is what separates cloned voice from
+   generic AI output.
+5. Audience Relationship and Persona — empathetic peer, authoritative
+   expert, witty contrarian, blunt older sibling, or other.
+
+Output:
+<voice_blueprint>[organized by the five dimensions above]</voice_blueprint>
+<negative_vocabulary>[words/phrases this creator would never say]</negative_vocabulary>
+<voice_wrapper>[1-paragraph system prompt I can paste into a new
+chat to force voice-consistent output immediately]</voice_wrapper>
+```
+
+**Save `<voice_blueprint>` and `<voice_wrapper>` to the client's Project as a permanent file.** Every future script for this creator starts at Step 3, not Step 1.
+
+---
+
+## STEP 2 — Blueprint Audit (Chat 1, same session)
+
+Run this before trusting the blueprint on a full script. Catches false patterns before they compound across a whole video.
+
+```
+Based on the voice_blueprint you just produced, write one 150-word
+sample paragraph on the topic: [YOUR VIDEO TOPIC].
+
+Then self-audit: identify any word, phrase, or structural choice in
+your sample that contradicts the blueprint. List them. Rewrite only
+those elements.
+
+Output the corrected paragraph in <sample> tags.
+```
+
+If the sample paragraph reads generic on first pass, the blueprint itself is too vague — go back to Step 1 and demand more specific negative vocabulary before proceeding.
+
+---
+
+## STEP 3 — Script Generation (Chat 2 — fresh chat, paste Blueprint in)
+
+```
+[PASTE <voice_blueprint> AND <voice_wrapper> FROM STEP 1]
+
+You are an elite YouTube Creative Director and Ghostwriter. Write a
+high-retention script matching the Voice Blueprint above, for this brief:
+
+Topic: [SPECIFIC ANGLE — not "AI for real estate" but "how a solo
+realtor automated 3 hours of daily admin using only Claude's free tier"]
+Target Length: [X minutes / ~X words]
+Core Takeaway: [one sentence — what can the viewer do differently by the end?]
+Proof Element: [stat, result, or real example anchoring credibility]
+
+Rules:
+- Insert [B-Roll Direction], [On-Screen Graphic], [SFX] cues in brackets
+  throughout to guide the editor
+- Zero fluff — no "welcome back to my channel" or any variant. Begin
+  on the first meaningful word of value
+- Every 60 seconds, insert an open loop, pattern interrupt, or
+  micro-tease to prevent drop-off. Label each: [OPEN LOOP],
+  [PATTERN INTERRUPT], [MICRO-TEASE]
+- Before writing, review the negative_vocabulary list. Flag yourself
+  if any of those words appear in your draft.
+
+Write the introduction only (first 90 seconds). Stop completely.
+Do not write the body until I approve the hook.
+```
+
+**Mechanism note:** 80% of viewer drop-off happens in the first 90 seconds. Approving the hook before the body is written is a feedback brake — it stops you from burning a full script on a hook that doesn't work, and stops the client from having to reject an entire draft over one bad opening.
+
+---
+
+## STEP 4 — Full Script + Final Audit (Chat 2, same session, after hook approval)
+
+```
+Hook approved. Continue the script to completion following the same
+rules (B-roll cues, zero fluff, engagement loops every 60 seconds,
+negative vocabulary enforcement).
+
+Then self-audit the complete script:
+1. Any word from the negative_vocabulary list — flag and replace
+2. Any section that could have been written by anyone, not
+   specifically [CREATOR NAME] — flag and rewrite
+3. Confirm at least one open loop, pattern interrupt, or micro-tease
+   per 60-second segment
+
+Output the audit results, then the final corrected script inside
+<final_script> tags.
+```
+
+---
+
+## Outreach Layer (Free-Pitch Samples Only)
+
+Use this after Step 4 produces a free sample script for a target creator you haven't worked with yet.
+
+```
+Hi [Name],
+
+I saw your [specific video] and love your focus on practical AI. As a
+ghostwriter specializing in AI content, I rewrote a sample script
+improving hooks/storytelling while matching your voice — would love
+to send it free as a test. No strings attached.
+
+[Attach sample]
+```
+
+**Target list (priority order):** AI Injection → JimCircuit → Sunny Israni → Claude Unlocked → Tokscript. See `courses/5 Online Jobs You Can Land Using AI.md` Section 4 for why this order.
+
+**Discovery questions for responders:** full bank in `courses/5 Online Jobs You Can Land Using AI.md` Section 5. Lead with process/pain questions ("walk me through a recent video where retention dropped — exactly where and why do you think that happened?"), not generic background questions.
+
+**Objection handling:** if a creator asks why they shouldn't just train Claude on the sample themselves —
+
+> "You can train Claude on my sample script's structure, but you can't replicate the strategic judgment, interview-driven insights, and performance optimization that turns a script into consistent growth — that's what you're paying me for."
+
+---
+
+## Usage Notes
+
+- Steps 1–2 run once per creator. Steps 3–4 run once per script. Save the Blueprint, not the individual scripts, as the reusable asset.
+- Fresh chat for Step 3 is mandatory — Step 1's analysis chat gets long and starts degrading output quality by the time you reach script generation.
+- For paid client work, add the client's own brand constraints (banned topics, sponsor mentions, legal disclaimers) as a fifth input alongside the four above.
+- Cross-reference `artifacts/upwork-profile.md` for the profile copy this system feeds — every delivered sample script should trace back to a specific portfolio claim.
+
+## Remember This
+- **Q:** What's the single most important output of Step 1?
+  **A:** The negative_vocabulary list — it's what separates cloned voice from generic AI text.
+- **Q:** Why stop after the hook in Step 3?
+  **A:** 80% of drop-off happens in the first 90 seconds; approving the hook first prevents a wasted full draft.
+- **Q:** What do you save to the client's Project — the script or the Blueprint?
+  **A:** The Blueprint. Every future script for that creator starts at Step 3.
+
+---
+
+*Version 1.0 — built from DeepSeek freelance guide, Part 3 (Voice Cloning) + Part 5 (Discovery) + Part 6 (Differentiation). Update after first live client run.*
