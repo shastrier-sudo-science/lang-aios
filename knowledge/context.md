@@ -9,7 +9,7 @@ IDENTITY:
 - Brand: AI Sovereignty Movement
 - Tagline: Helps overwhelmed people escape debt using AI-powered mindset systems
 - Origin: Built from zero in Trinidad using AI-powered systems
-- Constraints (These Are Features, Not Bugs): Mobile-only, 3-hour daily window (9 AM–2 PM AST), $0 budget, $242K debt, $419 surplus,Freedom Number $3.35M
+- Constraints (These Are Features, Not Bugs): Mobile-only, Daily Window 6pm to 9pm (3 hours), $0 budget, $242K debt, $419 surplus,Freedom Number $3.35M
 - Assets: "Hacking Your Mindset" book (2023), Daily Newsletter, AllFours game, PREDICT, SOVEREIGN v2.1, PropBot
 - Philosophy: 1% daily improvement, consistency over intensity, systems thinking, single next actions, always delivering more value than being paid for
 - CTA Priority: $27 book bundle
