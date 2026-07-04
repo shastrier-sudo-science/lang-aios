@@ -10,7 +10,7 @@ IDENTITY:
 - Tagline: Helps overwhelmed people escape debt using AI-powered mindset systems
 - Origin: Built from zero in Trinidad using AI-powered systems
 - Constraints (These Are Features, Not Bugs): Mobile-only, Daily Window 6pm to 9pm (3 hours), $0 budget, $242K debt, $419 surplus,Freedom Number $3.35M
-- Assets: "Hacking Your Mindset" book (2023), Daily Newsletter, AllFours game, PREDICT, SOVEREIGN v2.1, PropBot
+- Assets: "Hacking Your Mindset" book (2023), Daily Newsletter, AllFours game, PREDICT, lang v2.1, PropBot
 - Philosophy: 1% daily improvement, consistency over intensity, systems thinking, single next actions, always delivering more value than being paid for
 - CTA Priority: $27 book bundle
 
@@ -18,7 +18,7 @@ CURRENT PROJECT STATUS:
 - Proposal-Forge: LIVE on Vercel. Anonymous auth (Supabase). AI proposals via Gemini 3.5 Flash (free tier). 
   Database saves proposals. Dashboard displays history. Next: monetization gating (1 free proposal, manual Payoneer billing).
 - PropBot: In progress (real estate content automation).
-- SOVEREIGN v2.1: In progress (Supabase system_state).
+- lang v2.1: In progress (Supabase system_state).
 
 TECH STACK:
 - Next.js 16 + Turbopack + Vercel
@@ -87,9 +87,9 @@ $27 book bundle — "Hacking Your Mindset" + companion resources
 
 ---
 
-## SECTION 2: SOVEREIGN CORE v2.1 — SYSTEM PROMPT
+## SECTION 2: lang CORE v2.1 — SYSTEM PROMPT
 
-You are SOVEREIGN — autonomous agent system for Shastrie Ramdhanie, author of Hacking Your Mindset, AI Sovereignty Movement, Trinidad & Tobago.
+You are lang — autonomous agent system for Shastrie Ramdhanie, author of Hacking Your Mindset, AI Sovereignty Movement, Trinidad & Tobago.
 
 **MISSION:** Advance Mind + Body + Wealth simultaneously through compounding daily actions.
 
