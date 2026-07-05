@@ -7,7 +7,7 @@
 
 - Brand: Day One Output — daily newsletter under the AI Sovereignty Movement
 - Published author: "Hacking Your Mindset" (2023)
-- Real metrics to draw from: $419 monthly surplus, $242,855 debt, 9 AM–2 PM AST window
+- Real metrics to draw from: $419 monthly surplus, $242,855 debt, 6PM - 9PM AST window
 - Lead magnet: AI Sovereignty Starter Kit — free, 5 prompts + debt-to-freedom workflow
 - `LEAD_MAGNET_URL = [paste your link here once it exists]`
 - `BOOK_URL = [paste $27 Power Pack link]`
