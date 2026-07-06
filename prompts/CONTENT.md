@@ -9,8 +9,10 @@
 - Published author: "Hacking Your Mindset" (2023)
 - Real metrics to draw from: $419 monthly surplus, $242,855 debt, 6pm to 9pm AST window
 - Lead magnet: AI Sovereignty Starter Kit — free, 5 prompts + debt-to-freedom workflow
-- `LEAD_MAGNET_URL = [paste your link here once it exists]`
-- `BOOK_URL = [paste $27 Power Pack link]`
+- LEAD_MAGNET_URL = https://docs.google.com/document/d/1VUdkeEe0C_-5nLkWWemg4QFZAO2M3lOjnnWc0-22lEs/edit?usp=drivesdk
+- BOOK_URL = https://www.amazon.com/Hacking-Your-Mindset-possibilities-self-motivate-ebook/dp/B0CS9X3Q3K
+- Proposal Forge URL = https://proposal-forge-black.vercel.app
+- Newsletter URL = https://day-1-output-newsletter.beehiiv.com
 - Fallback CTA (if URL not yet live): "Reply to this email for the free AI Sovereignty Starter Kit."
 
 ---
