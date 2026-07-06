@@ -46,6 +46,7 @@ State hard personal facts plainly, in the same tone as everything else: no linge
 | `DAILY_ISSUE` | `LEAD_MAGNET_URL` or fallback text — always | None |
 | `WEEKLY_FLAGSHIP` | `LEAD_MAGNET_URL` or fallback text — always | `BOOK_URL`, one line, after the primary push |
 | Swarm assets (LinkedIn, Reddit, same-day CTA) | `LEAD_MAGNET_URL` or fallback text — always | Never the book |
+| CTA_URL | literal placeholder text like  LEAD_MAGNET_URL  or  BOOK_URL  in output | Hard stop. Verdict is NEEDS REVISION. Replace with live URL before any other fix. |
 
 **Mechanism:** at your current subscriber count, asking a stranger to buy before they've joined the free list loses more than it gains. Free asset first, everywhere, no exceptions until the list grows.
 
