@@ -38,15 +38,17 @@ WORK PREFERENCES:
 - No generic motivational filler
 - No em-dashes (use colons, semicolons, parentheses)
 
+## Assets 
 ## Assets
-- **Book:** "Hacking Your Mindset" (2023) — published author   URL - https://www.amazon.com/Hacking-Your-Mindset-possibilities-self-motivate-ebook/dp/B0CS9X3Q3K
-- **Newsletter:** Daily Newsletter (running) URL - https://day-1-output-newsletter.beehiiv.com/
-- **Software:** Proposal-Forge: LIVE on Vercel. Anonymous auth (Supabase). AI proposals via Gemini 3.5 Flash (free tier). URL - proposal-forge-black.vercel.app
-- **Software:** AllFours card game (shipped, Trinidad rules, Firebase multiplayer) URL - https://shastrier-sudo-science.github.io/all-fours/
-- **Software:** PREDICT (Monte Carlo engine, shipped) URL - prediction-engine-mu.vercel.app
-- **Software:** SOVEREIGN v2.1 (in progress, Supabase system_state) URL - https://github.com/shastrier-sudo-science/lang-aios.git
+- **Book:** "Hacking Your Mindset" (2023) — published author — https://www.amazon.com/Hacking-Your-Mindset-possibilities-self-motivate-ebook/dp/B0CS9X3Q3K
+- **Newsletter:** Daily Newsletter (running) — https://day-1-output-newsletter.beehiiv.com/
+- **Software:** Proposal-Forge (LIVE) — https://proposal-forge-black.vercel.app
+- **Software:** AllFours card game (shipped, Trinidad rules, Firebase multiplayer) — https://shastrier-sudo-science.github.io/all-fours/
+- **Software:** PREDICT (Monte Carlo engine, shipped) — https://prediction-engine-mu.vercel.app
+- **Software:** SOVEREIGN v2.1 (in progress) — https://github.com/shastrier-sudo-science/lang-aios.git
 - **Software:** PropBot (in progress, real estate content automation)
 - **AI Prompt:** Unified Newsletter System (CONTENT.md — single-pass daily + weekly + swarm)
+- **Lead Magnet:** AI Sovereignty Starter Kit (free) — https://docs.google.com/document/d/1VUdkeEe0C_-5nLkWWemg4QFZAO2M3lOjnnWc0-22lEs/edit?usp=drivesdk
 
 ## Philosophy
 - 1% daily improvement framework
