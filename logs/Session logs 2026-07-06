@@ -1,0 +1,104 @@
+Here is the complete session log for your vault.
+
+---
+
+CONTEXT CAPSULE — Session 2026-07-06
+
+Status: Lead magnet LIVE and tested. Newsletter system unified and ready. No issue shipped today (work absence + Beehiiv mobile friction).
+
+---
+
+DECISIONS MADE
+
+Decision	Rationale	
+Unified newsletter system folds daily + weekly + swarm into single `CONTENT.md` sub-prompt	Eliminates scattered files across AIOS; one paste, one pass, all assets	
+Lang CORE v2.1 stays untouched as generic router	Newsletter specifics live in `CONTENT.md`, same pattern as `FINANCIAL.md` / `CODE.md`	
+Lead magnet = primary CTA everywhere; book only secondary in weekly flagship	At low subscriber count, free asset converts better than cold 27 ask	
+"Utilize" and "transform" permitted in Voice DNA	Authentic voice under pressure beats arbitrary suppression	
+90-day plan for daily issues; personal/lived-experience for weekly flagships	Daily = repeatable framework; weekly = deeper identity stories	
+Audit blocks (Stage 4) are internal only — never paste into Beehiiv	Quality gate for you, not content for readers	
+
+---
+
+FILES MODIFIED / CREATED
+
+`prompts/CONTENT.md` (v3.3)
+- Single-pass runtime: 5 stages, one chat, all assets
+- Voice DNA with relaxed ban on `utilize` / `transform`
+- CTA LOGIC table: lead magnet primary, book secondary (weekly only)
+- AUDIT GRACE RULE: minor flags auto-correct, structural flags hard-stop
+- Added `CTA_URL` audit rule after today's placeholder escape
+- Fallback CTA for pre-link phase: "Reply to this email for the free Starter Kit"
+- Time window fixed to `6pm to 9pm AST` to match Core Context
+
+`knowledge/context.md` (Lang CORE v2.1)
+- Removed duplicate `day-one-engine-run.md` from TASK ROUTER
+- Updated CTA priority to lead magnet first, book second
+- Added Unified Newsletter System to Assets list
+- Added all live URLs to Assets section
+- Fixed `&gt;` to `>=` in BOOT SEQUENCE
+- Fixed formatting errors (missing spaces)
+
+`AI Sovereignty Starter Kit` (Google Doc — LIVE)
+- URL: `https://docs.google.com/document/d/1VUdkeEe0C_-5nLkWWemg4QFZAO2M3lOjnnWc0-22lEs/edit?usp=drivesdk`
+- 5 production prompts pulled from actual working system
+- "How to Use This Kit" intro added for beginner decompression
+- `$419 Debt-to-Freedom Workflow` rewritten with liability shield: framed as personal description, not financial advice
+- Tested and confirmed working on mobile
+
+---
+
+LIVE ASSET URLs (Locked)
+
+Asset	URL	
+Book (27 Power Pack)	https://www.amazon.com/Hacking-Your-Mindset-possibilities-self-motivate-ebook/dp/B0CS9X3Q3K	
+Newsletter (Beehiiv)	https://day-1-output-newsletter.beehiiv.com/	
+Lead Magnet (Starter Kit)	https://docs.google.com/document/d/1VUdkeEe0C_-5nLkWWemg4QFZAO2M3lOjnnWc0-22lEs/edit?usp=drivesdk	
+Proposal-Forge	https://proposal-forge-black.vercel.app	
+AllFours Game	https://shastrier-sudo-science.github.io/all-fours/	
+PREDICT	https://prediction-engine-mu.vercel.app	
+SOVEREIGN Repo	https://github.com/shastrier-sudo-science/lang-aios.git	
+
+---
+
+TEST OUTPUT GENERATED
+
+Concept: "The Unlit Door" — shipping without verifying the link actually works
+
+Draft word count: 298 words (DAILY_ISSUE range)
+
+Issues caught in audit: Literal `LEAD_MAGNET_URL` placeholder escaped into CTA; missing `$419` anchor in opening
+
+Fixes applied: Live URL inserted, opening sentence anchored to `$419 surplus window`
+
+Status: Draft corrected and ready to paste into Beehiiv when access returns
+
+---
+
+KNOWN BLOCKERS
+
+Blocker	Workaround	
+Beehiiv mobile editor is unusable	Draft issues in AI chat, save to notes app, paste into Beehiiv when on workplace PC	
+No newsletter sent today (2026-07-06)	Accept gap; system is ready for next available window	
+
+---
+
+NEXT ACTIONS (Prioritized)
+
+1. When back at workplace PC: Paste the corrected "Unlit Door" draft into Beehiiv, send test email to yourself, click CTA from Gmail mobile app, confirm <10-second load time. Then schedule.
+2. Before next Saturday batch: Add the `CTA_URL` audit rule to `CONTENT.md` in your repo so literal placeholders never pass again.
+3. Ongoing: Run daily issues from 90-day plan using `DAILY_ISSUE` mode; reserve `WEEKLY_FLAGSHIP` for personal/lived-experience stories.
+
+---
+
+REMEMBER THIS:
+Q: Where does the audit block go?
+A: Nowhere public. Read it, then delete it before pasting into Beehiiv.
+
+Q: What is the primary CTA in daily issues?
+A: AI Sovereignty Starter Kit (free). Book only mentioned in weekly flagship.
+
+Q: What stops a newsletter from publishing?
+A: Structural flags: missing SLPC, no concept name, third-person voice, literal URL placeholder.
+
+NEXT ACTION: Paste the corrected "Unlit Door" draft into Beehiiv when you have PC access. Test the CTA link from mobile Gmail. Ship if under 10 seconds.
