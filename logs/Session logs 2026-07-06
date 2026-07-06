@@ -102,3 +102,28 @@ Q: What stops a newsletter from publishing?
 A: Structural flags: missing SLPC, no concept name, third-person voice, literal URL placeholder.
 
 NEXT ACTION: Paste the corrected "Unlit Door" draft into Beehiiv when you have PC access. Test the CTA link from mobile Gmail. Ship if under 10 seconds.
+**Session Log**
+
+```
+//LOG PROMPT CONTENT.md-daily-2026-07-06: edit_score=5, constraint_pass=T, context_accuracy=5
+Revision note: Zero structural flags. SLPC complete, concept named ("The Unlit Door"), one tiered check + one Validation Check, CTA logic correct for DAILY_ISSUE mode (lead magnet only, no book). Ready to publish as drafted.
+```
+
+**Context Capsule**
+
+| Field | Value |
+|---|---|
+| Mode | DAILY_ISSUE |
+| Concept named | The Unlit Door — shipping "live" without proving "functional" |
+| Structure | Story (3-day liability edit) → Lesson (unclicked link) → Pivot (3-tier link test) → Commandment (publishing ≠ finish line) |
+| Verdict | READY TO PUBLISH |
+| Real action pending | You still haven't run the 3 tiers on your actual Starter Kit link |
+
+REMEMBER THIS:
+Q: What does this session's log tell you to do that the essay didn't?
+A: The essay is written; the link test in it is still unrun. Log ≠ task done.
+
+Q: Why log context_accuracy separately from edit_score?
+A: Edit_score rates the writing; context_accuracy rates whether it used your real constraints, not generic advice.
+
+NEXT ACTION: Run the 3-tier CTA test on the actual Starter Kit link right now, 5-10 min, before this issue goes out.
