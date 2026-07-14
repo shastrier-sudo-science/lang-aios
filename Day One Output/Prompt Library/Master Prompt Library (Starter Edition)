@@ -1,0 +1,102 @@
+Master Prompt Library (Starter Edition).
+Core Frameworks for High-Velocity, Free-Tier AI Production
+
+This library is your centralized toolbox. Copy these prompts, replace the bracketed variables, and deploy them in under 30 seconds to protect your daily production window.
+
+
+1. THE DAILY BRIEFING
+What it does: Compresses your priorities into one scannable plan before you touch a single task. Stops you from burning your work window deciding what to do.
+
+“You are my daily briefing generator. Compress the following into ONE scannable briefing for a 3-hour focused work window (zero-budget, AI-execution model).
+
+Today's Energy: [high / medium / low, any time already lost]
+Project Focus: [what you're touching today, or "unsure, tell me"]
+Yesterday's Unfinished Item: [paste it, or "none"]
+
+Output Format (strict):
+TODAY'S BRIEFING [DATE]
+Hour 1: [single specific task, time-boxed]
+Hour 2: [single specific task, time-boxed]
+Hour 3: [single specific task, time-boxed]
+Carry-Over Risk: [is yesterday's unfinished item blocking today? yes/no + 1-line fix]
+If Low Energy: [fallback — the ONE thing to do if your window collapses to 30 minutes]
+
+Rules: No padding. Every task specific enough to start without further thinking. If energy is low, shrink to one task only.”
+2. THE CONTEXT RESET
+What it does: Free AI tools cut you off after a certain number of messages. This prompt lets you extract your current state and carry your work into a fresh chat window with zero lost progress.
+
+“Summarize our work so far in this exact format:
+
+<summary>
+Goal: [one sentence - what we are building or solving]
+Key outputs so far: [bullet list of everything produced]
+Current status: [exactly where we are]
+Decisions made: [every choice that affects what comes next]
+Next step: [the exact task the next chat should execute]
+</summary>
+
+Make this self-contained. A fresh AI with no memory of this chat must be able to read this and continue without asking questions.”
+How to use: Paste this when a chat hits 8-10 messages. Open a new chat, paste your baseline instructions, paste this generated <summary> block, and keep executing.
+3. THE DOC IMPROVER
+What it does: Takes any rough draft, voice memo transcript, or brain-dump and tightens it into clean copy without turning it into generic, corporate AI writing.
+
+“You are a senior editor. Tighten the following draft for [FORMAT - email / LinkedIn post / proposal / newsletter] use.
+
+Raw Draft: [PASTE YOUR DRAFT]
+Tone: [Direct / Diplomatic / Authoritative / Empathetic]
+Length target: [Shorter / Same / Longer]
+CTA needed: [Yes/No - what should the reader do next?]
+
+Editing Rules:
+1. Cut every sentence that doesn't move the reader toward understanding or action.
+2. Replace passive voice with active voice.
+3. Break up sentences longer than 20 words.
+4. If a CTA is needed, make it specific.
+5. Preserve my original voice - don't make it sound like corporate AI.
+
+Output: Clean Draft, then a bullet list of Changes Made, then word count before/after.”
+4. THE NEWSLETTER WRITER
+What it does: Turns one raw idea into a complete, ready-to-publish newsletter issue structured like a high-engagement conversation.
+
+“You are my newsletter ghostwriter. I publish to people trying to build something real with zero budget.
+
+Today's Topic: [one sentence - what's the core idea?]
+Source Material: [transcript, notes, or "none - invent from scratch"]
+Tone: [Direct / Story-driven / Tactical]
+Length: [Short 300 words / Medium 600 words]
+
+Constraints: No generic motivation. Specific mechanisms only. Every issue feels like a conversation.
+
+Structure:
+1. Hook (1-2 sentences - open loop or contradiction)
+2. Context (why this matters today, grounded in a real constraint)
+3. Mechanism (how it works, not just what to do)
+4. Action (one specific, tiny step, 10 minutes or less)
+5. CTA (natural bridge to what's next)
+
+Output: Full text ready to paste into an email platform, plus a subject line under 50 characters.”
+5. THE AI ROUTER
+What it does: Routes specific tasks to the free AI tools best suited for them so you get premium-tier output without a paid subscription.
+The Decision Tree (Ask in this order):
+1.	Passwords/Sensitive Data? Send to your most trusted/capable private model. Skip the rest.
+2.	Market Research / Trend Validation? Use the tool with the largest available context window.
+3.	Technical Drafts / Code / Schemas? Use the model that handles long technical reasoning best.
+4.	Marketing Copy / Persuasive Writing? Use a conversational model tuned for structured output.
+5.	Real-Time Data / News? Use a tool with live web/social access enabled.
+The Handoff Capsule
+Paste this code block between different AI tools so your context survives the jump:
+
+“AI HANDOFF - [Project Name]
+From: [AI name]
+To: [AI name]
+Task: [one sentence]
+Constraints: [your budget, location, format needs]
+Input: [paste the source AI's output below this line]
+Expected output: [exact format needed]”
+THE PRODUCTION ENGINE METHODOLOGY
+Small compounding systems beat heroic one-off efforts because heroic efforts do not survive a tight daily window and a day job.
+•	The 1% Execution Rule: Focus strictly on daily momentum rather than intensity spikes. If your time window collapses, execute the fallback option from your Daily Briefing.
+•	The Project Kill Rule: Every digital project gets a fixed kill date. If it has not hit its target metric by that date, it gets retired immediately. Do not maintain commitments purely because you have already spent time on them.
+Want to upgrade your system to the full 12-part Advanced Reference Engine, including the 6-Stage Production OS Pipeline?
+Subscribe to the newsletter: https://day-1-output-newsletter.beehiiv.com
+
