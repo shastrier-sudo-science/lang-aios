@@ -1,0 +1,129 @@
+our production rhythm (inside your 3-hour window):
+- Monday: Use the Content Machine chain to generate outlines for Issues 005–009 (30 min)
+- Tuesday: Batch-draft 3 issues using Claude (45 min)
+- Wednesday: Edit and finalize 2 issues (30 min)
+- Thursday–Sunday: Repeat. Stay 7–10 days ahead.
+ 
+Each issue doesn't need to be Issue 001's length. Some are 400-word "one-prompt power-ups." Others are 900-word deep dives. The consistency of showing up daily matters more than uniform length.
+ 
+---
+ 
+90-Day Daily Calendar
+ 
+FOUNDATION PHASE: Days 1–14
+ 
+Day	Issue Title	The Big Idea	
+001	The Chaining Foundation	3 focused chats beat 1 long chat every time.	
+002	The Content Machine	Turn 1 insight into 7 content pieces in 90 min.	
+003	The Setup Prompt	Custom instructions recalibrate every response.	
+004	Role Prompts	Assign an expert identity. Claude performs differently.	
+005	Negative Instructions	Tell it what NOT to do. Eliminates generic fluff.	
+006	Force Format	End every prompt with output specs. Zero editing.	
+007	System Prompts vs. Chat	Project instructions = rules that persist.	
+008	Chain-of-Thought	Force step-by-step thinking. Accuracy jumps 40%.	
+009	XML Tagging	Clean handoffs between chats. Portable context.	
+010	The Context Reset	The survival prompt that beats message limits.	
+011	The Token Economy	Why long chats cost more per message.	
+012	Peak Hour Strategy	When free tier is throttled — and when it flies.	
+013	The 5-Hour Rolling Reset	Not midnight. Spread usage, never hit the wall.	
+014	Implementation Day	Build your Prompt Library Artifact today.	
+ 
+ARTIFACTS PHASE: Days 15–28
+ 
+Day	Issue Title	The Big Idea	
+015	What Are Artifacts	Real outputs, not descriptions. Apps, docs, dashboards.	
+016	5 Things You Can Build Now	FAQ page, budget tracker, workout log, quiz, proposal.	
+017	Publish & Share Artifacts	Anyone can use your tool. No Claude account needed.	
+018	AI-Powered Artifacts	Build tools with Claude's intelligence baked inside.	
+019	Downloadable Files	.docx, .xlsx, .pptx — professional deliverables for free.	
+020	Free vs. Paid Artifacts	What you're missing, and why you probably don't need it yet.	
+021	Interactive Dashboards	HTML/CSS/JS trackers that live in your browser.	
+022	The 0 Coding Agent	Simulate Claude Code using milestones + fresh chats.	
+023	Build: Habit Tracker	Complete walkthrough. LocalStorage, mobile-responsive.	
+024	Build: Finance Dashboard	Income, expenses, savings rate, net worth progress bar.	
+025	Build: Lead Magnet	Interactive cheat sheet you share to collect emails.	
+026	Build: Content Calendar	2-week table with titles, hooks, filming times.	
+027	Implementation Day	Publish your first Artifact. Share the link.	
+028	Artifact Showcase	Reader-submitted builds featured.	
+ 
+PROJECTS PHASE: Days 29–38
+ 
+Day	Issue Title	The Big Idea	
+029	What Are Projects	Saved workspaces where every chat starts with full context.	
+030	Your First Project in 5 Min	Upload files. Write instructions. Never re-explain.	
+031	The 3 Projects Everyone Needs	Income, Learning, Training. Claude becomes 3 experts.	
+032	Project Knowledge Base	Upload once. Reference forever. Cross-chat memory.	
+033	Free vs. Paid Projects	Google Workspace integration is the real upgrade trigger.	
+034	Your Personal CLAUDE.md	Encode your rules: tone, format, constraints, verification.	
+035	Memory Editing	Claude remembers you. Edit it manually. Full control.	
+036	Implementation Day	Build your Mastery Hub Project. 3 files. 1 instruction set.	
+037	Project Showcase: Content Machine	How I organize my entire YouTube pipeline in one Project.	
+038	Project Showcase: Business Advisor	Financial data + goals + market research. One chat.	
+ 
+RESEARCH PHASE: Days 39–50
+ 
+Day	Issue Title	The Big Idea	
+039	Web Search Basics	Live internet access. No toggle. Built into conversation.	
+040	Competitor Research	3-hour task → 5-minute prompt. Pricing, gaps, complaints.	
+041	Claude vs. Perplexity	Perplexity for speed. Claude for analysis + strategy.	
+042	Deep Research: Planning	Front-load the plan. One message per question.	
+043	Deep Research: Gathering	Facts, quotes, confidence levels. No circling.	
+044	Deep Research: Analysis	Patterns, contradictions, implications. Structured tables.	
+045	The Verification Loop	Force Claude to critique its own output for hallucinations.	
+046	The Research Agent Pattern	One role: gather. No writing. No recommending. Just facts.	
+047	Weekly Report Generator	Wins, challenges, lessons, priorities. One-page dashboard.	
+048	Content Calendar Generator	2-week table: title, hook, points, CTA, filming time.	
+049	Implementation Day	Run one full research report on YOUR niche today.	
+050	Research Showcase	Reader-competitive analysis featured.	
+ 
+FILE UPLOADS PHASE: Days 51–58
+ 
+Day	Issue Title	The Big Idea	
+051	Upload 20 Files at Once	PDFs, docs, Excel, images. Cross-document synthesis.	
+052	Image Analysis (Vision)	Handwritten notes, whiteboards, charts, business cards.	
+053	Financial Document Analysis	Bank statements categorized. Budget built. 340 found.	
+054	Resume & Job Applications	Tailor every app to every role. Mirror keywords.	
+055	Notes to Structured Data	Photo of scribbles → organized, actionable document.	
+056	Free vs. Paid File Limits	20 files / 30MB. When you'd actually feel the ceiling.	
+057	Implementation Day	Upload your financial life. Run the analysis.	
+058	File Upload Showcase	Reader before/after: bank statement → budget.	
+ 
+REAL APPLICATIONS PHASE: Days 59–75
+ 
+Day	Issue Title	The Big Idea	
+059	The Learning Accelerator	5-step protocol: Hook → Core → Practice → Retention → Bridge.	
+060	Claude as Fitness Coach	12-week calisthenics program. Sets, reps, mechanisms.	
+061	Job Application System	Resume upload → gap analysis → tailored rewrite → cover letter.	
+062	Side Business: Ideation to Launch	5-step sequence. Zero startup cost. Conversation-only build.	
+063	Content Machine Deep Dive	1 insight → TikTok + Twitter + LinkedIn + newsletter + Reddit.	
+064	Debt Elimination Planning	Avalanche method. Month-by-month. What-if scenarios.	
+065	Financial Modeling	"If I earn 500 extra, how does the timeline change?"	
+066	Decision Matrix	Weighted criteria. Brutal clarity on hard choices.	
+067	The Critique/Editor Pattern	Harsh feedback on copy, ideas, plans. No ego.	
+068	Creative Brainstorming	10 unconventional angles. Breaks fixation.	
+069	Email Sequence Writing	7-day nurture sequence. Markdown. Ready to send.	
+070	Presentation Generation	7-slide deck. Speaker notes. Canva-ready formatting.	
+071	Pitch Deck Creation	For sponsors, clients, or investors. Structured narrative.	
+072	Implementation Day	Build your side business plan. One chain. One hour.	
+073	Implementation Day	Create your debt elimination timeline. Paste real numbers.	
+074	Application Showcase: Learning	Reader results: "Learned X in 3 hours vs. 3 weeks."	
+075	Application Showcase: Fitness	Reader programs built. Handstand progressions shared.	
+ 
+ADVANCED PHASE: Days 76–90
+ 
+Day	Issue Title	The Big Idea	
+076	Self-Correction Loops	Draft → critique → rewrite → verify. Quality compounds.	
+077	Multi-Agent Simulation	Researcher → Critic → Writer → Verifier. 4 chats. 1 result.	
+078	ReAct-Style Loops	Reason → Act → Observe. Agent behavior without agents.	
+079	Branching Decision Chains	Generate 3 approaches. Evaluate. Execute the winner.	
+080	Recursive Self-Improvement	Explicit iteration. "Make this 10% better. Now again."	
+081	Meta-Chaining	Claude designs the chain for you. Save it. Reuse it.	
+082	The Chaining Library	Living document of all workflows. Your reusable IP.	
+083	Weekly Review Automation	10 messages. Full retrospective + next-week priorities.	
+084	The Feedback Loop	Every 2 weeks: "Score my prompts 1–10. What's my weakness?"	
+085	30-Day Roadmap: Days 1–7	Sign up. Profile. Memory. First Project. First Artifact.	
+086	30-Day Roadmap: Days 8–14	Web search. File uploads. Content creation. First publish.	
+087	30-Day Roadmap: Days 15–21	Chaining mastery. Agent simulation. First reusable workflow.	
+088	30-Day Roadmap: Days 22–30	Compounding. Context patterns. Upgrade decision point.	
+089	When to Upgrade (Honest)	Don't pay because you feel you should. Pay when friction hurts.	
+090	Your Personal AI Operating System	Mastery Hub + Chaining Library + Feedback Loop = compound advantage.
