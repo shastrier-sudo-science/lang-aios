@@ -600,3 +600,15 @@ ________________________________________
 Proposal Forge System v4.0 | Live-Learning System
 Current status: Beta Launch / Data Collection Phase | Last updated: 15/07/26
 © 2026 Shastrie Ramdhanie | AI Sovereignty Movement
+
+
+| Asset                   | Value                                              |
+| ----------------------- | -------------------------------------------------- |
+| **Product**             | Proposal Forge System v4.0                         |
+| **Price**               | \$47 USD one-time                                  |
+| **PayPal Payment Link** | <https://www.paypal.com/ncp/payment/9Z7GHEDRTKPHU> |
+| **QR Code**             | ✅ Generated (uploaded)                             |
+| **Hosted Button ID**    | 9Z7GHEDRTKPHU                                      |
+| **Delivery**            | Direct PayPal + email (manual)                     |
+| **Refund Policy**       | 7-day money-back, no questions asked               |
+<img width="500" height="561" alt="Proposal Forge-qrcode" src="https://github.com/user-attachments/assets/3218a435-31b0-403d-bb18-032573c0138b" />
