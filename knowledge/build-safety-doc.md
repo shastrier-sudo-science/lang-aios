@@ -107,3 +107,4 @@ If a secret was ever committed to git, it's compromised — rotate it, don't jus
 ## Update Log
 
 - 2026-06-13: Initial version, compiled from vibe-security skill + All Fours debugging history + SOVEREIGN RLS pattern + CODE sub-prompt fallback matrix. Created alongside PropBot spec as first reference application.
+- - 2026-07-21: Kimi audit cross-checked against PropBot repo — confirmed 5 of 6 mechanisms accurate, Rate Limiting (Section 7) confirmed present/correct, no changes required to content.
