@@ -57,7 +57,7 @@ Security-sensitive code (auth, payments, RLS, API keys) never leaves Claude, reg
 |---------|--------|-----------|-------------|
 | SOVEREIGN v2.1 | In Progress | 2026-07-15 | Finish Supabase system_state integration |
 | ProposalForge | In Progress | TBD (highest priority) | LemonSqueezy env vars + first payment test |
-| PropBot | Portfolio Build | 2026-06-30 | Complete live demo for real estate pitch |
+| PropBot | KILLED (2026-07-21) | 2026-06-30 | Kill reason: no kill_metric ever set, kill_date passed 20 days unactioned. Spec preserved in clients/propbot-spec.md for reuse as Tier 2 reference architecture only. |
 | ForecastOS | In Progress | TBD | Set BOOK_URL/PRO_PAYMENT_URL once LemonSqueezy clears; build 8-metric signal layer |
 | PREDICT | Shipped | — | Maintenance only |
 | AllFours | Shipped | — | Maintenance only |
