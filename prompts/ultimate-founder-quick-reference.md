@@ -1,4 +1,10 @@
----
+What's inside:
+10 copy-paste prompts — the ones you'll actually use daily, ordered by workflow (vibe-code → core loop → storage → design → export → landing page → data import → integration → sales DM → premium redesign)
+3-Hour Window Cheat Sheet — Hour 1 (build), Hour 2 (ship), Hour 3 (scale) with exact prompts mapped to each hour
+Pre-Sell 7-Day Test — day-by-day action table
+Kill Conditions — 6 hard stops so you don't waste time
+One-Line Decisions — 7 common questions, one answer each
+How to use it: Keep this open in a second tab while building. When you sit down at 9 AM, look at the hour block, copy the prompt, paste into Claude. No thinking required.---
 name: ultimate-founder-quick-reference
 description: "The 10 most-used copy-paste prompts from the Ultimate Founder-Engineer Skill v3.1b. Keep this open while building."
 version: 3.1b
