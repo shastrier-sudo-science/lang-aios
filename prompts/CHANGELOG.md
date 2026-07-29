@@ -1,5 +1,10 @@
 # CHANGELOG — Ultimate Founder-Engineer Skill
-
+What's inside:
+v3.1b full changelog — every addition categorized by severity (Critical/High/Medium)
+v3.0 baseline — what existed before this merge
+v3.2 roadmap — what triggers the next update (real revenue data, actual churn numbers, first production breakage)
+v4.0 vision — when you hit >$5K MRR or add a team member
+How to use it: When something breaks in production, add it to the v3.2 checklist. When you hit a milestone (first 10 paying customers, first $1K month), update the changelog with the real numbers. This becomes your operating history.
 ## [3.1b] — 2026-07-28
 
 ### Merged
