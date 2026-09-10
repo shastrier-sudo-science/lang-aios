@@ -2,7 +2,7 @@ Here is your cleaned-up, ready-to-deploy **Proposal Edge** LinkedIn Newsletter E
 
 ---
 
-# PROPOSAL_FORGE_NEWSLETTER.md — Proposal Edge LinkedIn Newsletter Engine
+# Proposal Edge LinkedIn Newsletter Engine
 ## Sub-prompt for Lang CORE v2.1. Paste Lang CORE first, then this, then your topic.
 
 ---
